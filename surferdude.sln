@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiweb", "apiweb\apiweb.csproj", "{BF7413D8-7058-455E-AD89-1FB24E15AA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{D1AD22AB-67AF-4450-B28A-0976DF6BB483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7413D8-7058-455E-AD89-1FB24E15AA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7413D8-7058-455E-AD89-1FB24E15AA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7413D8-7058-455E-AD89-1FB24E15AA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7413D8-7058-455E-AD89-1FB24E15AA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AD22AB-67AF-4450-B28A-0976DF6BB483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AD22AB-67AF-4450-B28A-0976DF6BB483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AD22AB-67AF-4450-B28A-0976DF6BB483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AD22AB-67AF-4450-B28A-0976DF6BB483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0925FF1-FD26-487C-A1FC-D1AA01C0FD66}
+	EndGlobalSection
+EndGlobal
