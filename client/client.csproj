@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.29" />
+    <PackageReference Include="React.Router.Mvc4" Version="5.2.12" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +19,23 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\src\app\context\" />
+    <Folder Include="ClientApp\src\app\errors\" />
+    <Folder Include="ClientApp\src\app\hooks\" />
+    <Folder Include="ClientApp\src\app\models\" />
+    <Folder Include="ClientApp\src\app\util\" />
+    <Folder Include="ClientApp\src\app\store\" />
+    <Folder Include="ClientApp\src\features\about\" />
+    <Folder Include="ClientApp\src\features\account\" />
+    <Folder Include="ClientApp\src\features\admin\" />
+    <Folder Include="ClientApp\src\features\basket\" />
+    <Folder Include="ClientApp\src\features\checkout\" />
+    <Folder Include="ClientApp\src\features\contact\" />
+    <Folder Include="ClientApp\src\features\home\" />
+    <Folder Include="ClientApp\src\features\orders\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

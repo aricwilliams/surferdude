@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using apiweb.Entities;
 using Microsoft.AspNetCore.Identity;
-using System.Data.Entity;
 
 namespace apiweb.Data
 {
